@@ -1,8 +1,9 @@
 <template>
     <div>
-        <h1>Here is a chart!</h1>
-        {{fakedata}}
-        <button @click="update"> Append data </button>
+        <div>
+            {{fakedata}}
+        </div>
+        <v-btn @click="update"> Append data </v-btn>
     </div>
 </template>
 
