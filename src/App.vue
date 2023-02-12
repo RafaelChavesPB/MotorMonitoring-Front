@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <DataChart />
+    <DataDashboard />
   </div>
 </template>
 
 <script>
-import DataChart from "./components/DataChart.vue";
+import DataDashboard from "./components/DataDashboard.vue";
 export default {
   name: "App",
   components: {
-    DataChart,
+    DataDashboard,
   },
 };
 </script>
