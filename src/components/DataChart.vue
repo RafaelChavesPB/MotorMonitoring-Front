@@ -17,6 +17,8 @@ import {
   LinearScale,
 } from "chart.js";
 
+
+
 ChartJS.register(
   Title,
   Tooltip,
