@@ -1,24 +1,16 @@
-# motormonitoring-front
+# MotorMonitoring
 
-## Project setup
-```
-npm install
-```
+Este Dashboard faz um sistema IOT utilizado para monitorar o uso de motores.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Execução
 
-### Compiles and minifies for production
+Para executar essa dashboard use os seguintes comandos:
+
+
 ```
-npm run build
+  $ npm install
 ```
 
-### Lints and fixes files
 ```
-npm run lint
+  $ npm run serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
