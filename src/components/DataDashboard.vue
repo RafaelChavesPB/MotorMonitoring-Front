@@ -20,10 +20,10 @@ export default {
     };
   },
   created() {
-    this.socket = io("http://localhost:3000");
+    this.socket = io("http://localhost:5000");
   },
   mounted() {
-    this.socket.on("new data", (params) => {
+    this.socket.on("incoming_data", (params) => {
       this.update(params);
     });
   },
